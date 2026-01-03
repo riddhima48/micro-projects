@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    padding:1rem 5% ;
+    background-color: rgba(255, 255, 255,0.05) ;
+    border-bottom: 1px rgba(255, 255, 255,0.1);
+    backdrop-filter: blur(15px);
+    margin-bottom: 2 rem;
+}
+
+.logo {
+    font-size: 2 rem;
+    font-weight: 700;
+    color: rgb(175, 254, 254);
+    letter-spacing: 1px;
+}
